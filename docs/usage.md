@@ -10,6 +10,6 @@
 
 ## 文件依赖
 
-入口 `index.html` 依赖同目录 `pull-plan.css`、`pull-plan.js`，以及 `assets/pull-plan/` 内的 25 个 PNG 和 `assets/fonts/zzz/zzz-en.ttf`、`zzz-zh.ttf`。保持这些相对路径不变；切换账号目录时，隐藏的懒加载立绘会自动切换为立即加载。
+入口 `index.html` 依赖同目录 `pull-plan.css`、`pull-plan.js`，以及 `assets/pull-plan/` 内的 25 个 WebP 立绘和 `assets/fonts/zzz/zzz-en.ttf`、`zzz-zh.ttf`。保持这些相对路径不变；切换账号目录时，隐藏的懒加载立绘会自动切换为立即加载。PNG 源图保留在仓库中作为原始归档，不参与页面请求。
 
 角色图片素材为官方立绘，不是 AI 生成。若手机浏览器剪贴板权限受限，页面会提示手动复制；不保证所有设备均可自动复制。
